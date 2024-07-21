@@ -10,7 +10,7 @@
 }
 
 body {
-  display: flex;
+  height: 100vh;
 }
 
 .sidebar {
@@ -44,6 +44,105 @@ body {
   font-family: 'Norse Bold';
   font-size: 60px;
   color: white;
+}
+
+.main-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 350px;
+  font-family: 'Poppins';
+  height: 100%;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: 	#00633d;
+  margin-bottom: 50px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  row-gap: 40px;
+  column-gap: 120px;
+  margin-bottom: 50px;
+  color: #015233;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container input {
+  height: 40px;
+  border-radius: 20px;
+  background-color: #afe1ce;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: 'Poppins';
+  color: #015233;
+  border: 2px solid #015233;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.input-container label {
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+.terms-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.terms-container input[type="checkbox"] {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid #015233;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.create-account-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.create-account-container button {
+  padding: 5px 30px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: 500;
+  background: linear-gradient(to bottom, #01c077, #004d2f);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login {
+  cursor: pointer;
+  color: #015233;
+}
+
+.login:hover {
+  text-decoration: underline;
 }
 
 

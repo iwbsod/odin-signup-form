@@ -24,53 +24,54 @@
       Sign up to Odin Project
     </div>
 
-    <div class="form-container">
-      <form action="">
-        <div class="form-grid">
-
-          <div class="first-name-container">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name">
-          </div>
-    
-          <div class="last-name-container">
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name">
-          </div>
-    
-          <div class="email-container">
-            <label for="email">Email</label>
-            <input type="email" id="email">
-          </div>
-          
-          <div class="phone-number-container">
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" id="phone-number">
-          </div>
-  
-          <div class="password-container">
-            <label for="password">Password</label>
-            <input type="password" id="password">
-          </div>
-          <div class="confirm-password-container">
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password">
-          </div>
-  
+    <form class="form-container" action="">
+      <div class="form-grid">
+        <div class="first-name-container input-container">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" required>
         </div>
-
-        <div class="terms-container">
-          <input type="checkbox" id="checkbox">
-          <label for="checkbox">I accept terms and policy</label>
+  
+        <div class="last-name-container input-container">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" required>
+        </div>
+  
+        <div class="email-container input-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
         </div>
         
-        <div class="create-account-container">
-          <button class="create-account-button" type="submit">Create Account</button>
-
-          <div class="login-container">Already have an account? <span class="login">Log in</span></div>
+        <div class="phone-number-container input-container">
+          <label for="phone-number">Phone Number</label>
+          <input type="tel" id="phone-number" required>
         </div>
-      </form>
-    </div>
+
+        <div class="password-container input-container">
+          <label for="password">Password</label>
+          <input type="password" id="password" required>
+        </div>
+        <div class="confirm-password-container input-container">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" required>
+        </div>
+
+      </div>
+
+      <div class="bottom">
+
+      </div>
+
+      <div class="terms-container">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">I accept terms and policy</label>
+      </div>
+      
+      <div class="create-account-container">
+        <button class="create-account-button" type="submit">SIGN UP</button>
+        
+        <div class="login-container">Already have an account? <span class="login">Log in</span></div>
+      </div>
+    </form>
   </div>
 </body>
 </html>
